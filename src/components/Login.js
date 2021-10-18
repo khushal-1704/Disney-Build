@@ -1,19 +1,24 @@
 import React from 'react'
 import styled from 'styled-components'
+import { useHistory } from 'react-router-dom'
 
 
 function Login() {
+    const history = useHistory()
+    const handleSubmit = () => {
+        history.push('/home')
+    }
     return (
         <Container>
 
             <CTA>
                 <CTALogoOne src="/images/cta-logo-one.svg"></CTALogoOne>
-                <SignUp>GET ALL THERE</SignUp>
+                <SignUp onClick={handleSubmit}>GET ALL THERE</SignUp>
                 <Description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptate saepe hic quos ab dolores quia suscipit mollitia quas sunt?</Description>
                 <CTALogoTwo src="/images/cta-logo-two.png"></CTALogoTwo>
             </CTA>
 
-        </Container>
+        </Container >
     )
 }
 

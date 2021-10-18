@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
+import requests from '../Request'
 
 function Movies() {
     return (
@@ -7,28 +8,40 @@ function Movies() {
             <h4>Recommended for You</h4>
             <Content>
                 <Wrap>
-                    <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6EA416AD3B15FCC1BADC817A932A57FFF707556DB2233FFCB4CFEB7C8EEDE23C/scale?width=400&aspectRatio=1.78&format=jpeg" alt="" />
+                    <img src="/images/movies/movie-12.jpg" alt="" />
                 </Wrap>
                 <Wrap>
-                    <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6EA416AD3B15FCC1BADC817A932A57FFF707556DB2233FFCB4CFEB7C8EEDE23C/scale?width=400&aspectRatio=1.78&format=jpeg" alt="" />
+                    <img src="/images/movies/movie-1.jfif" alt="" />
                 </Wrap>
                 <Wrap>
-                    <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6EA416AD3B15FCC1BADC817A932A57FFF707556DB2233FFCB4CFEB7C8EEDE23C/scale?width=400&aspectRatio=1.78&format=jpeg" alt="" />
+                    <img src="/images/movies/movie-2.jfif" alt="" />
                 </Wrap>
                 <Wrap>
-                    <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6EA416AD3B15FCC1BADC817A932A57FFF707556DB2233FFCB4CFEB7C8EEDE23C/scale?width=400&aspectRatio=1.78&format=jpeg" alt="" />
+                    <img src="/images/movies/movie-3.jfif" alt="" />
                 </Wrap>
                 <Wrap>
-                    <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6EA416AD3B15FCC1BADC817A932A57FFF707556DB2233FFCB4CFEB7C8EEDE23C/scale?width=400&aspectRatio=1.78&format=jpeg" alt="" />
+                    <img src="/images/movies/movie-4.jpg" alt="" />
                 </Wrap>
                 <Wrap>
-                    <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6EA416AD3B15FCC1BADC817A932A57FFF707556DB2233FFCB4CFEB7C8EEDE23C/scale?width=400&aspectRatio=1.78&format=jpeg" alt="" />
+                    <img src="/images/movies/movie-5.jpg" alt="" />
                 </Wrap>
                 <Wrap>
-                    <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6EA416AD3B15FCC1BADC817A932A57FFF707556DB2233FFCB4CFEB7C8EEDE23C/scale?width=400&aspectRatio=1.78&format=jpeg" alt="" />
+                    <img src="/images/movies/movie-6.jpg" alt="" />
                 </Wrap>
                 <Wrap>
-                    <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6EA416AD3B15FCC1BADC817A932A57FFF707556DB2233FFCB4CFEB7C8EEDE23C/scale?width=400&aspectRatio=1.78&format=jpeg" alt="" />
+                    <img src="/images/movies/movie-7.jpg" alt="" />
+                </Wrap>
+                <Wrap>
+                    <img src="/images/movies/movie-8.jpg" alt="" />
+                </Wrap>
+                <Wrap>
+                    <img src="/images/movies/movie-9.jpg" alt="" />
+                </Wrap>
+                <Wrap>
+                    <img src="/images/movies/movie-10.jpg" alt="" />
+                </Wrap>
+                <Wrap>
+                    <img src="/images/movies/movie-11.jpg" alt="" />
                 </Wrap>
 
             </Content>

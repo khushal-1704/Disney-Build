@@ -66,7 +66,9 @@ img{
     transition-duration: 300ms;
 
     &:hover{
-        border: 4px solid rgba(249 , 249 , 249 , 0.8);
+        padding: 0;
+        border: 4px solid rgba(249, 249, 249, 0.8);
+        transition-duration: 300ms;
     }
 }
 `

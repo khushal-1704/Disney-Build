@@ -1,8 +1,6 @@
 import React from 'react';
 // import { Counter } from './features/counter/Counter';
 import styled from 'styled-components';
-import Header from './components/Header'
-import Home from './components/Home'
 import {
   BrowserRouter as Router,
   Switch,
@@ -10,22 +8,20 @@ import {
 } from "react-router-dom";
 import Detail from './components/Detail';
 import Login from './components/Login'
+import Body from './components/Body';
 
 function App() {
   return (
     <Container className="App">
 
       <Router>
-        <Header />
+
         <Switch >
-          <Route path='/login'>
+          <Route path='/' exact>
             <Login />
           </Route>
-          <Route path='/detail'>
-            <Detail />
-          </Route>
-          <Route path='/'>
-            <Home />
+          <Route path='/home'>
+            <Body />
           </Route>
         </Switch>
       </Router>
